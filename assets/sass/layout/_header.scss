@@ -1,0 +1,26 @@
+.hero {
+
+      &__container {
+          background-image: url('../images/post-image.jpg');
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          padding-top: 20rem;
+          padding-bottom: 20rem;
+          text-align: center;
+          
+         
+      }
+
+      &__title {
+        color: $white;
+        
+      }
+
+      &__P {
+        font-family: $playfair;
+        font-weight: $italic;
+        font-size: $xx-large;
+
+      }
+}

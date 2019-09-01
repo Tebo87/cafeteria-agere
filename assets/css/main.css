@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/*Utils*/
+/*Base*/
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 70px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h5 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/*Layout*/
+.hero__container {
+  background-image: url("../images/post-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  text-align: center;
+}
+.hero__title {
+  color: #fff;
+}
+.hero__P {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 70px;
+}
+
+.texto__date {
+  color: #6C6E70;
+}
+.texto__P {
+  padding-bottom: 2rem;
+  color: #6C6E70;
+}
+
+.pagination {
+  background-color: #D1D1D1;
+}
+.pagination__container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.thumbnails {
+  background-color: #fff;
+}
+.thumbnails__email {
+  color: #E56353;
+  font-weight: 300;
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer {
+  background-color: #121619;
+}
+.footer__container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.footer__img {
+  width: 100%;
+  max-width: 10%;
+}
+
+.navbar {
+  background-color: #121619;
+}
+.navbar__img {
+  width: 100%;
+  max-width: 50%;
+}
+.navbar__navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  width: 167px;
+}
+
+/*Components*/
+.button {
+  padding: 0.2rem 1rem;
+  border-radius: 100px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.button {
+  background-color: #6C6E70;
+  color: #fff;
+}
+.button:hover {
+  background-color: #D1D1D1;
+  color: #fff;
+}
+.button:focus {
+  background-color: #6C6E70;
+  border-color: 2px solid #D1D1D1;
+  box-shadow: none;
+}
+
+/*Vendors*/
+/* Configuracion para dispositivos pequeños Por debajo de 700px */
+@media screen and (max-width: 700px) {
+  .hero__P {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .button {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .thumbnails__img {
+    width: 50%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer__img, .navbar__img {
+    width: 100%;
+    max-width: 25%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

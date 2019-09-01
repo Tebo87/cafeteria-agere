@@ -1,0 +1,32 @@
+/* Configuracion para dispositivos pequeños Por debajo de 700px */
+    @media screen and (max-width: 700px){
+        .hero__P {
+        font-size: 2rem;
+        }
+        }
+
+        @media screen and (max-width: 700px){
+            .button {
+            font-size: 12px;
+            }
+            }
+
+            @media screen and (max-width: 700px){
+                .thumbnails__img {
+                width: 50%;
+                height: 100%;
+                }
+                }
+
+                @media screen and (max-width: 700px){
+                    .footer__img, .navbar__img {
+                    width: 100%;
+                    max-width: 25%;
+                    }
+                    }
+
+                    
+
+                    
+
+                

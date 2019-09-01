@@ -1,0 +1,21 @@
+.navbar {
+    background-color: $eerie_black;
+
+    &__img {
+      width: 100%;
+      max-width: 50%;
+    }
+
+    &__navbar-brand {
+      
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+        width: 167px;
+    
+    }
+}

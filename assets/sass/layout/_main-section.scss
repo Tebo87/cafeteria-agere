@@ -1,0 +1,38 @@
+.texto {
+
+    &__date {
+        color: $nickel;
+        
+
+    }
+
+    &__P {
+        padding-bottom: 2rem;
+        color: $nickel;
+    }
+}
+
+.pagination {
+    background-color: $light_gray;
+    
+
+    &__container {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        
+    }
+
+}
+
+.thumbnails {
+    background-color: $white;
+
+    &__email {
+        color: $fuzzy_wuzzy;
+        font-weight: $light;
+        font-size: 23px;
+        font-family: $roboto;
+    }
+    
+    
+    }
